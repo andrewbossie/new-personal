@@ -2,7 +2,7 @@
     <div class="text-3xlg">
         <div>
             <p>
-                INFO: &lsaquo;CD&rsaquo; into one of the following folders (or type in the corresponding number):
+                &lsaquo;CD&rsaquo; into one of the following folders (or type in the corresponding number):
             </p>
             <p>
                 1. /home<br/>
@@ -11,7 +11,7 @@
             </p>
         </div>
         <p class="py-2 text-xl">
-            guest@andrew-bossie.com ~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2"></input>
+            guest@andrew-bossie.com ~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
         </p>
     </div>
 </template>

@@ -20,6 +20,7 @@ body {
 
 input {
     all: unset;
+    border-bottom: solid rgb(235, 138, 3);
 }
 
 .blinking {
