@@ -1,9 +1,7 @@
 <template>
     <div class="p-4">
         <div class="container-xl text-left">
-            <div class="p-4">
-                <Header/>
-            </div>
+            <Header class="p-4 header" />
             <div class="py-4">
                 <h1 class="text-2xl pb-4">&langle;Employment History&rangle;</h1>
                 <ul>

@@ -1,9 +1,7 @@
 <template>
     <div class="p-4">
         <div class="container-xl text-left">
-            <div class="p-4">
-                <Header/>
-            </div>
+            <Header class="p-4 header" ></Header>
             <div class="py-4">
                 <p class="text-md md:text-2xl">
                     # Hey, I'm Andrew and I'm a full-stack software engineer of almost a decade. <br />

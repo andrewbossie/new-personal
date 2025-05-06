@@ -10,9 +10,10 @@
                 3. /projects
             </p>
         </div>
-        <p class="py-2 text-xl">
-            guest@andrew-bossie.com ~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
-        </p>
+        <pre class="py-2 text-xl">
+&#8972;[guest@andrew-bossie.com]
+&#8974;: ~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
+        </pre>
     </div>
 </template>
 <script setup>
