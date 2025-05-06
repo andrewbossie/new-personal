@@ -5,7 +5,7 @@
                 <Header/>
             </div>
             <div class="py-4">
-                <p>
+                <p class="text-xl">
                     # Hey, I'm Andrew and I'm a full-stack software engineer of almost a decade. <br />
                     # I have broad experence from server provisioning, networking, backend all the way up to front end vue/react/angular. <br />
                     <!-- # I have a proven record of delivering super star software on time and more importantly 
@@ -14,7 +14,7 @@
                     # Feel free to poke around and read about me and my experience!
                 </p>
             </div>
-            <Prompt />
+            <Prompt class="prompt" />
         </div>
     </div>
 </template>
