@@ -45,7 +45,7 @@
                 </ul>
                 
             </div>
-            <Prompt class="py-4"/>
+            <Prompt class="py-4 prompt"/>
         </div>
     </div>
 </template>

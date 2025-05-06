@@ -5,7 +5,7 @@
                 <Header/>
             </div>
             <div class="py-4">
-                <p class="text-xl">
+                <p class="text-md md:text-2xl">
                     # Hey, I'm Andrew and I'm a full-stack software engineer of almost a decade. <br />
                     # I have broad experence from server provisioning, networking, backend all the way up to front end vue/react/angular. <br />
                     <!-- # I have a proven record of delivering super star software on time and more importantly 
