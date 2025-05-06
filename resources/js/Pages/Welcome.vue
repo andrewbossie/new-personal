@@ -14,7 +14,7 @@
                     # Feel free to poke around and read about me and my experience!
                 </p>
             </div>
-            <Prompt class="prompt" />
+            <Prompt class="py-4 prompt" />
         </div>
     </div>
 </template>
