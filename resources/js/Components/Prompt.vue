@@ -29,21 +29,21 @@ let promptInput = ref("");
 
 function onEnter(event) {
     const selection = event.target.value;
-    if (selection == 1 || selection == "cd Home" || selection == "cd home" || selection == "cd /Home" || selection == "cd /home" ||
+    if (selection == 1 || selection == "Cd Home" || selection == "cd Home" || selection == "cd home" || selection == "cd /Home" || selection == "cd /home" ||
         selection == "Home" || selection == "home"
     ) {
         router.visit(
             "/"
         );
     }
-    else if (selection == 3 || selection == "cd Work" || selection == "cd work" || selection == "cd /Work" || selection == "cd /work" ||
+    else if (selection == 3 || selection == "Cd work" || selection == "cd Work" || selection == "cd work" || selection == "cd /Work" || selection == "cd /work" ||
         selection == "Work" || selection == "work"
     ) {
         router.visit(
             "/work"
         );
     }
-    else if (selection == 4 || selection == "cd Projects" || selection == "cd projects" || selection == "cd /Projects" || selection == "cd /projects" ||
+    else if (selection == 4 || selection == "Cd projects" || selection == "cd Projects" || selection == "cd projects" || selection == "cd /Projects" || selection == "cd /projects" ||
         selection == "Projects" || selection == "projects"
     ) {
         router.visit(
