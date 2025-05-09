@@ -15,7 +15,7 @@
         </div>
         <pre class="py-2 text-xl">
 &#8972;[guest@andrew-bossie.com]
-&#8974;:~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
+&#8974;:~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2 text-sm" />
         </pre>
     </div>
 </template>
@@ -53,9 +53,15 @@ function onEnter(event) {
     else if (selection.includes("sudo") || selection.includes("su")
     ) {
         promptInput.value = "Straight to jail.";
+        this.timeoutId = setTimeout(() => {
+            promptInput.value = "";
+        }, 1000);
     }
     else {
         promptInput.value = "Invalid Selection.";
+        this.timeoutId = setTimeout(() => {
+            promptInput.value = "";
+        }, 1000);
     }
 }
 </script>
