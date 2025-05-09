@@ -1,15 +1,16 @@
 <template>
     <div class="text-3xlg">
         <div><p>
-                ------------------------------------------------------------------------------------------
+                ---------------------------------------------
             </p>
             <p>
-                &lsaquo;CD&rsaquo; into one of the following folders (or type in the corresponding number):
+                &lsaquo;CD&rsaquo; into one of the following folders: <br/>
+                (Or click them)
             </p>
             <p>
-                1. /home<br/>
-                2. /work<br />
-                3. /projects
+                <a href="/">/home</a><br/>
+                <a href="/work">/work</a><br />
+                <a href="/projects">/projects</a>
             </p>
         </div>
         <pre class="py-2 text-xl">

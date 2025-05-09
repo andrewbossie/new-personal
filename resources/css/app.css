@@ -20,9 +20,8 @@ body {
     background-color: black;
     /* background-image: radial-gradient(
       rgba(255, 176, 0, 0.3), black 70%
-    ); */
-    background-blend-mode: lighten;
-    /* width: 100%; */
+    );
+    background-blend-mode: lighten; */
     top: 0;
     left: 0;
     bottom: 0;
