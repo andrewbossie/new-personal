@@ -1,8 +1,7 @@
 <template>
-    <div class="p-4">
-        <div class="container-xl text-left">
+        <div class="text-left">
             <Header class="p-4 header" />
-            <div class="py-4">
+            <div class="info p-4">
                 <h1 class="text-2xl pb-4">&langle;Employment History&rangle;</h1>
                 <ul>
                     <li class="py-4">
@@ -56,9 +55,8 @@
                 </ul>
                 
             </div>
-            <Prompt class="py-4 prompt"/>
+            <Prompt class="prompt px-4"/>
         </div>
-    </div>
 </template>
 <script setup>
 import Prompt from '@/Components/Prompt.vue';

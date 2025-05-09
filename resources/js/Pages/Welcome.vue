@@ -1,9 +1,8 @@
 <template>
-    <div class="p-4">
-        <div class="container-xl text-left">
+        <div class="text-left">
             <Header class="p-4 header" ></Header>
-            <div class="py-4">
-                <p class="text-md md:text-2xl">
+            <div class="info p-4">
+                <p class="text-md text-xl">
                     # Hey, I'm Andrew and I'm a full-stack software engineer of almost a decade. <br />
                     # I have broad experence from server provisioning, networking, backend all the way up to front end vue/react/angular. <br />
                     <!-- # I have a proven record of delivering super star software on time and more importantly 
@@ -12,9 +11,8 @@
                     # Feel free to poke around and read about me and my experience!
                 </p>
             </div>
-            <Prompt class="py-4 prompt" />
         </div>
-    </div>
+        <Prompt class="prompt px-4" />
 </template>
 <script setup>
 import Prompt from '@/Components/Prompt.vue';

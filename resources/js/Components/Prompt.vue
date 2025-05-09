@@ -1,6 +1,8 @@
 <template>
     <div class="text-3xlg">
-        <div>
+        <div><p>
+                ------------------------------------------------------------------------------------------
+            </p>
             <p>
                 &lsaquo;CD&rsaquo; into one of the following folders (or type in the corresponding number):
             </p>
@@ -12,7 +14,7 @@
         </div>
         <pre class="py-2 text-xl">
 &#8972;[guest@andrew-bossie.com]
-&#8974;: ~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
+&#8974;:~$ <input v-on:keyup.enter="onEnter" v-model="promptInput" autofocus type="text" class="ps-2" />
         </pre>
     </div>
 </template>
@@ -49,7 +51,7 @@ function onEnter(event) {
     }
     else if (selection.includes("sudo") || selection.includes("su")
     ) {
-        promptInput.value = "Permission Denied.";
+        promptInput.value = "Straight to jail.";
     }
     else {
         promptInput.value = "Invalid Selection.";

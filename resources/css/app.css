@@ -6,20 +6,38 @@
     src: url("../fonts/VT323-Regular.ttf") format("truetype");
   }
 
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+#app {
+    height: 100vh;
+}
+
 body {
     background-color: black;
     /* background-image: radial-gradient(
       rgba(255, 176, 0, 0.3), black 70%
     ); */
     background-blend-mode: lighten;
+    /* width: 100%; */
     top: 0;
     left: 0;
     bottom: 0;
     right: 0;
-    /* height: 100vh; */
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
     color: rgb(235, 138, 3);
-    text-shadow: 2px 2px 6px rgba(235, 138, 3, .5);
-    /* text-shadow: 0px 2px 2px re */
+    /* text-shadow: 0px 4px 7px rgba(235, 138, 3, 1); */
+    text-shadow:
+      2px 0px 3px red,
+      -2px 0px 3px green
+      /* 0px 2px 3px rgba(235, 138, 3, 1) */
+    ;
     font-family: vt323;
 }
 
@@ -29,7 +47,7 @@ input {
 }
 
 .blinking {
-  animation: blinker 1s step-start infinite;
+  animation: blinker 0.5s step-start infinite;
 }
 
 @keyframes blinker {
@@ -42,18 +60,25 @@ input {
   text-decoration: underline;
 }
 
-.prompt {
-  position: fixed;
-  bottom: 0;
-  width: 100%;
-  background: #000;
-}
-
 .header {
   position: fixed;
   top: 0;
   left: 0;
+  height: 149px;
   width: 100%;
   background: #000;
-  z-index: 999;
+}
+
+.info {
+  padding-top: 150px;
+  /* margin-bottom: 500px; */
+  padding-bottom: 250px;
+}
+
+.prompt {
+  position: fixed;
+  bottom: 0;
+  height: 250px;
+  width: 100vw;
+  background: #000;
 }
