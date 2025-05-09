@@ -8,8 +8,8 @@
                 (Or click them)
             </p>
             <p>
-                <a href="/">/home</a><br/>
-                <a href="/work">/work</a><br />
+                <a href="/">/home</a>&nbsp;|
+                <a href="/work">/work</a>&nbsp;|
                 <a href="/projects">/projects</a>
             </p>
         </div>
